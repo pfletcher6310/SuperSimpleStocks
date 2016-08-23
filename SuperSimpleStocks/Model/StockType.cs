@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SuperSimpleStocks
+namespace SuperSimpleStocks.Model
 {
-    public class Class1
+    public enum StockType
     {
+        Common = 0,
+        Preferred = 1
     }
 }
